@@ -5,7 +5,7 @@ class PreRegPage {
 
         cy.get('from h2').should('be.visible').and('have.text', 'Seus dados')
     }
-    fullForm() {
+    fullForm(fullnaem) {
         cy.get('input[name="name"]').type('John Doe')
         cy.get('input[name="email"]').type('john.doe@example.com')
 
