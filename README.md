@@ -1,3 +1,17 @@
+# Rockshaver API Docker Tests
+
+![CI](https://github.com/007will/Rockshaver-API-Docker-Tests/actions/workflows/ci.yml/badge.svg)
+
+API test suite designed to run inside Docker containers for isolated integration and contract testing. Contains scripts to start dependent services, run contract/contract-tests, and produce machine-readable artifacts for CI.
+
+Quickstart
+- Start containers: `docker-compose up --build -d`
+- Run tests: `npm ci && npm run test:ci`
+
+What to review
+- Docker-based test harness, contract/contract-tests, CI integration.
+
+Author: José Willams — https://github.com/007will
 # 🧪 Rockshaver API – Dockerized Automated Tests
 
 ![API Testing](https://img.shields.io/badge/API-Testing-blue)
